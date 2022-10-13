@@ -1,0 +1,746 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.background1{
+    position: relative;
+    height: 800px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Images/13.png);
+    background-size: 100% 100%;
+    z-index: 0;
+}
+
+.box1{
+    height: 650px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+
+.text1{
+    height: 100px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1 > p{
+    font-size: 100px;
+    color: white;
+}
+
+.background1cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.line1{
+    height: 50px;
+    flex-basis: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp1{
+    padding: 10px 83% 10px 2%;
+    outline: none;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    font-size: 16px;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+}
+
+.line2{
+    height: 50px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line2 > ul{
+    list-style: none;
+}
+
+.line2 > ul > li{
+    display: inline-block;
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.line2 > ul > li:hover{
+    color: #789481;
+}
+
+.filterbox1{
+    height: 250px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.space0{
+    height: 250px;
+    flex-basis: 65%;
+}
+
+.filter1{
+    height: 200px;
+    flex-basis: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.checkbox1{
+    height: 20px;
+    flex-basis: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.littlebox1{
+    height: 20px;
+    flex-basis: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.littletext1{
+    height: 20px;
+    flex-basis: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.verylittlebox1{
+    visibility: hidden;
+    height: 16px;
+    width: 16px;
+    background-color: white;
+}
+
+.littletext1 > p{
+    font-size: 17px;
+    color: white;
+}
+
+
+
+.littlebox2{
+    height: 20px;
+    flex-basis: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.littletext2{
+    height: 20px;
+    flex-basis: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.verylittlebox2{
+    visibility: hidden;
+    height: 16px;
+    width: 16px;
+    background-color: white;
+}
+
+.littletext2 > p{
+    font-size: 17px;
+    color: white;
+}
+
+
+
+
+.littlebox2{
+    height: 20px;
+    flex-basis: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.littletext2{
+    height: 20px;
+    flex-basis: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.verylittlebox2{
+    visibility: hidden;
+    height: 16px;
+    width: 16px;
+    background-color: white;
+}
+
+.littletext2 > p{
+    font-size: 17px;
+    color: white;
+}
+
+
+
+
+.littlebox3{
+    height: 20px;
+    flex-basis: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.littletext3{
+    height: 20px;
+    flex-basis: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.verylittlebox3{
+    visibility: hidden;
+    height: 16px;
+    width: 16px;
+    background-color: white;
+}
+
+.littletext3 > p{
+    font-size: 17px;
+    color: white;
+}
+
+
+
+
+.littlebox4{
+    height: 20px;
+    flex-basis: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.littletext4{
+    height: 20px;
+    flex-basis: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.verylittlebox4{
+    visibility: hidden;
+    height: 16px;
+    width: 16px;
+    background-color: white;
+}
+
+.littletext4 > p{
+    font-size: 17px;
+    color: white;
+}
+
+
+
+
+.littlebox5{
+    height: 20px;
+    flex-basis: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.littletext5{
+    height: 20px;
+    flex-basis: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.verylittlebox5{
+    visibility: hidden;
+    height: 16px;
+    width: 16px;
+    background-color: white;
+}
+
+.littletext5 > p{
+    font-size: 17px;
+    color: white;
+}
+
+
+
+
+.littlebox6{
+    height: 20px;
+    flex-basis: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.littletext6{
+    height: 20px;
+    flex-basis: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.verylittlebox6{
+    visibility: hidden;
+    height: 16px;
+    width: 16px;
+    background-color: white;
+}
+
+.littletext6 > p{
+    font-size: 17px;
+    color: white;
+}
+
+.button1{
+    height: 40px;
+    flex-basis: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.space1{
+    height: 40px;
+    flex-basis: 93%;
+}
+
+.clearbut{
+    height: 27px;
+    flex-basis: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    cursor: pointer;
+}
+
+.clearbut:hover{
+    border: solid 1px gray;
+}
+
+.clearbut > p{
+    font-size: 17px;
+    color: white;
+}
+
+
+
+.background2{
+    height: 800px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #253130;
+}
+
+.main1{
+    height: 650px;
+    flex-basis: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box2{
+    height: 620px;
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img1{
+    height: 450px;
+    width: 100%;
+    background-image: url(../Images/23.png);
+    background-size: 100% 100%;
+}
+
+.text2{
+    height: 30px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.minitext1{
+    height: 30px;
+    flex-basis: 85%;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+}
+
+.price1{
+    height: 30px;
+    flex-basis: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: white;
+}
+
+.text3{
+    height: 30px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    color: white;
+}
+
+.button2{
+    height: 90px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.but1{
+    height: 40px;
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.but1:hover{
+    border: solid 1px gray;
+}
+
+.box3{
+    height: 620px;
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img2{
+    height: 450px;
+    width: 100%;
+    background-image: url(../Images/22.png);
+    background-size: 100% 100%;
+}
+
+
+
+.background3{
+    height: 600px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #253130;
+}
+
+.box4{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 90%;
+}
+
+.imgbox1{
+    height: 530px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+}
+
+.imgg1{
+    height: 400px;
+    flex-basis: 100%;
+    background-image: url(../Images/10.png);
+    background-size: 100% 100%;
+}
+
+.imgbox2{
+    height: 530px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+}
+
+.imgg2{
+    height: 400px;
+    flex-basis: 100%;
+    background-image: url(../Images/16.png);
+    background-size: 100% 100%;
+}
+
+.imgbox3{
+    height: 530px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+}
+
+.imgg3{
+    height: 400px;
+    flex-basis: 100%;
+    background-image: url(../Images/19.png);
+    background-size: 100% 100%;
+}
+
+.text4{
+    height: 25px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.text5{
+    height: 20px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.minitext3{
+    height: 25px;
+    flex-basis: 85%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.price2{
+    height: 25px;
+    flex-basis: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+}
+
+.button3{
+    height: 35px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.but2{
+    height: 35px;
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px white;
+    color: white;
+    cursor: pointer;
+}
+
+.but2 > p{
+    font-size: 22px;
+}
+
+.but2:hover{
+    border: solid 1px gray;
+}
+
+
+
+.background4{
+    height: 700px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #253130;
+}
+
+.imgbox4{
+    height: 650px;
+    flex-basis: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imgg4{
+    height: 520px;
+    flex-basis: 100%;
+    background-image: url(../Images/14.png);
+    background-size: 100% 100%;
+}
+
+.text6{
+    height: 30px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.minitext5{
+    height: 30px;
+    flex-basis: 85%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+
+.price3{
+    height: 30px;
+    flex-basis: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    font-size: 25px;
+}
+
+.text7{
+    height: 30px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.minitext6{
+    height: 30px;
+    flex-basis: 85%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+}
+
+.button4{
+    height: 40px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.but3{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 15%;
+    border: solid 1px white;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.but3:hover{
+    border: solid 1px gray;
+}
+
+
+
+.background5{
+    height: 100px;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #253130;
+}
+
+.text8{
+    height: 80px;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+}
+
+.text8 > a{
+    text-decoration: none;
+}
+
+.text8 > a{
+    color: #789481;
+    cursor: pointer;
+}
+
+.text8 > a:hover{
+    color: grey;
+}
